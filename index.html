@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Paolo La Vita</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
-    <style>
-        nav{
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+
+    <!--<style>
+        nav {
             background-color: rgb(71, 63, 63);
-        }   
+        }
 
         body {
             background-color: coral;
@@ -21,10 +23,10 @@
             color: white;
         }
 
-        .nav{
+        .nav {
             color: white;
         }
-       
+
 
         .navbar-text {
             font-size: 36px;
@@ -32,7 +34,7 @@
         }
 
         .description {
-            color:white;
+            color: white;
             text-align: center;
             font-size: 26px;
         }
@@ -42,29 +44,160 @@
             text-align: center;
             color: white;
         }
-    
+
         img {
             border-radius: 50%;
             margin: 8% 0 8% 28%;
         }
+    </style>-->
 
-
-    </style>
 </head>
-<body>
-    <nav class="navbar navbar-inverse">
-        <p class="navbar-text">PAOLO LA VITA</p>
-        <ul class="nav navbar-nav">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
 
-        <div class="container">
-            <img src="https://paololavita.github.io/Responsive-Portfolio/assets/images/tony_clifton.jpeg" alt="Paolo" style="width:500px">
-            <h1>PAOLO LA VITA</h1>
-            <p class="description">&lt; Full Stack Developer - Systems Analyst &gt;</Full></p>
+<body>
+    <nav class="clearfix">
+
+        <div class="contain">
+
+            <div>
+                <h2>PAOLO LA VITA</h2>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="#contact">&nbsp;&nbsp;Contact</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">&nbsp;&nbsp;Portfolio&nbsp;&nbsp;</a>
+                    </li>
+                    <li>
+                        <a href="#about">About&nbsp;&nbsp;</a>
+                    </li>
+                </ul>
+            </div>
+
         </div>
+    </nav>
+
+    <div class="container">
+        <img src="https://paololavita.github.io/Responsive-Portfolio/assets/images/tony_clifton.jpeg" alt="Paolo" style="width:500px">
+        <h1>PAOLO LA VITA</h1>
+        <p class="description">&lt; Full Stack Developer - Systems Analyst &gt;</Full>
+        </p>
+    </div>
+
+    <main class="clearfix otherClass">
+
+        <div id="about">
+
+            <h2>About Me</h2>
+
+            <hr />
+
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales velit et magna vestibulum, at vestibulum
+                eros condimentum. Suspendisse feugiat metus id augue blandit, a fringilla dolor vulputate. Nam blandit eget
+                mi quis vestibulum. Quisque tempus, mauris ac fermentum sagittis, orci neque hendrerit neque, vel placerat
+                massa metus ac ante. Morbi nibh tortor, varius eget ornare non, egestas sed erat. Orci varius natoque penatibus
+                et magnis dis parturient montes, nascetur ridiculus mus.</p>
+
+            <p>In hac habitasse platea dictumst. Donec efficitur turpis consectetur ultricies egestas. Donec sed scelerisque
+                arcu, quis accumsan nunc. Nunc semper tellus rutrum magna sagittis, vitae vehicula magna feugiat. Fusce sit
+                amet sem et nibh congue mollis. Etiam turpis ligula, auctor quis ante sed, ullamcorper ultricies libero.
+                Ut eleifend odio eget ornare tempor. Nunc a quam iaculis, sollicitudin sapien at, semper ligula.</p>
+
+            <p>Maecenas iaculis sem ut commodo lacinia. Donec semper enim mattis ante sagittis, non fringilla eros interdum.
+                Etiam eget magna finibus, sagittis sapien id, laoreet arcu. Praesent eget dui vel lorem faucibus vestibulum
+                eget ut arcu. Aenean facilisis enim at sem sollicitudin, sed consequat quam dignissim. Pellentesque sed eros
+                consequat, egestas dolor nec, ultricies velit. Ut finibus cursus dignissim. Nam sed eleifend velit. Praesent
+                tincidunt vestibulum metus. In quis lacus nec libero efficitur interdum eget eu ligula.</p>
+
+        </div>
+
+    </main>
+
+    <main class="clearfix otherClass">
+
+        <div id="portfolio">
+
+            <h2>Porfolio</h2>
+
+            <hr />
+
+            <div class="parent">
+                <img src="assets/images/hangman.jpeg" width="275" height="210">
+                <div class="child">Hangman</div>
+            </div>
+
+            <div class="parent">
+                <img src="assets/images/rpg_game.jpeg" width="275" height="210">
+                <div class="child">RPG Game</div>
+            </div>
+
+            <div class="parent">
+                <img src="assets/images/trivia_game.jpeg" width="275" height="210">
+                <div class="child">Trivia Game</div>
+            </div>
+
+            <div class="parent">
+                <img src="assets/images/rutgers_info_widget.jpeg" width="275" height="210">
+                <div class="child">Hotel Nomad</div>
+            </div>
+
+            <div class="parent">
+                <img src="assets/images/rock_paper_scissors.jpeg" width="275" height="210">
+                <div class="child">Rock Paper Scissors</div>
+            </div>
+
+            <div class="parent">
+                <img src="assets/images/rock_paper_scissors.jpeg" width="275" height="210">
+                <div class="child">Co-op Student Tracker</div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <main class="clearfix otherClass">
+
+        <div id="contact">
+
+            <h2>Contact Me</h2>
+
+            <hr />
+
+            <form>
+                Name:
+                <br>
+                <br>
+                <input type="text" name="Name" size="157" value="Paolo La Vita">
+                <br>
+                <br> Email:
+                <br>
+                <br>
+                <input type="text" name="Email" size="157" value="plavita@hotmail.com">
+                <br>
+                <br>
+            </form>
+            Message
+            <textarea rows="8" cols="155">
+            </textarea>
+            <br>
+            <br>
+            <i class="fab fa-github"></i>
+            <i class="fab fa-github-square"></i>
+        
+
+        </div>
+
+    </main>
+
+    <footer class="clearfix">
+
+        <p>&#169; Copyright 2018 Paolo La Vita</p>
+
+    </footer>
+
 </body>
+
 </html>
