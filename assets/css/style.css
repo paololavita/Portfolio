@@ -128,6 +128,12 @@ img {
     font-size: 26px;
 }
 
+.contactinfo {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
 form {
     color: white;
     background-color: rgb(99, 95, 95)e;
