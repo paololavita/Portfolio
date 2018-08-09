@@ -152,3 +152,17 @@ form {
     line-height: 30 px;
     padding-bottom: 16px;
 }
+
+.star {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.half {
+    width: 15%;
+    height: 6px;
+    background-color: white;
+    margin: auto 25px;
+    padding: auto;
+}
